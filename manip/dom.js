@@ -1,6 +1,11 @@
 /**
  * DOM MANIPULATION EXAMPLES
+ * 
+ * 
+ * 
  */
+
+const sultoon = document.getElementById('sultoon')
 
 // --- 1. SELECTION & CONTENT ---
 // We use document.getElementById to "grab" the element from the tree.
@@ -62,11 +67,6 @@ tracker.addEventListener('mousemove', (e) => {
     posY.textContent = e.offsetY;
 });
 
-
-
-
-
-let sentence = `emmanuel is "a very" good man`
 
 
 
